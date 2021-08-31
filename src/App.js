@@ -1,11 +1,21 @@
+import ImageUpload from "./components/Images/ImageUpload";
 
-import Menu from "./components/Menu/Menu";
 
 function App() {
   
-  return (
-   <Menu />
-  );
+
+return(
+  <>
+  <ImageUpload/>
+  <ImageUpload/>
+  <ImageUpload/>
+  <ImageUpload/>
+  <ImageUpload/>
+  <ImageUpload/>
+  <ImageUpload/>
+  </>
+) 
+
 }
 
 export default App;
