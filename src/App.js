@@ -1,21 +1,13 @@
-import ImageUpload from "./components/Images/ImageUpload";
-
+import MyAdCard from "./components/Cards/MyAdCard";
+import SimpleBar from "./components/Charts/SimpleBar";
+import MenuAppBar from "./components/Menu/MenuAppBar";
+import PieChartDemo from "./components/Charts/PieChartDemo";
 
 function App() {
   
-
-return(
-  <>
-  <ImageUpload/>
-  <ImageUpload/>
-  <ImageUpload/>
-  <ImageUpload/>
-  <ImageUpload/>
-  <ImageUpload/>
-  <ImageUpload/>
-  </>
-) 
-
+  return (
+ <PieChartDemo/>
+  )
 }
 
 export default App;

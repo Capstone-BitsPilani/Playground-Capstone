@@ -5,6 +5,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import CardActionArea from '@material-ui/core/CardActionArea';
+import TimeAgo from 'timeago-react';
 
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
@@ -58,9 +59,18 @@ export default function SellItemCard({children,...props}) {
         <Typography variant="h5" color="textPrimary" component="p">
         Rs {item.price}
         </Typography>
-        <Typography variant="body2" color="textSecondary" component="p">
+        <Typography variant="body" color="textSecondary" component="p">
         {item.description}
 
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">
+        {item.area} {item.city} 
+
+        </Typography>
+      
+       
+        <Typography variant="body2" color="textSecondary" component="p">
+        <TimeAgo  datetime={new Date(item.activatedat)}/>
         </Typography>
       </CardContent>
       </CardActionArea>
