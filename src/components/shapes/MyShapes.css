@@ -1,0 +1,14 @@
+.square {
+    background: lightblue;
+    width: 100px;
+    height: 100px;
+}
+.circle {
+    background-image: linear-gradient(238.59deg, #F07E7E 1.36%, rgba(240, 126, 126, 0.75) 100.04%);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.text {
+    margin: auto;
+  }
